@@ -1,0 +1,99 @@
+/* Write your code here. */
+.app-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #43cbff, #9708cc);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.age-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: #171f46;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.user-input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #171f46;
+}
+@media screen and (min-width: 768px) {
+  .user-input {
+    width: 70%;
+  }
+}
+
+.button {
+  background-image: linear-gradient(to right, #43cbff, #9708cc);
+  padding: 5px 12px 5px 12px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 50px;
+  border-width: 0px;
+  min-width: 100px;
+  max-width: 300px;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 80%;
+}
+@media screen and (max-width: 768px) {
+  .image {
+    width: 300px;
+    height: 100px;
+    width: 80%;
+  }
+}
+
+.result-message {
+  font-size: 18px;
+  font-weight: 600;
+  color: #8e1dd2;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.error-message {
+  color: #ff0b37;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  text-align: left;
+}
