@@ -4,6 +4,7 @@ In this assignment let's build a **Age Calculator** by applying the concepts we 
 
 <br/>
 <div style="text-align: center;">
+  -- https://assets.ccbp.in/frontend/content/react-js/age-calculator-output.gif --
 
 <img src="https://assets.ccbp.in/frontend/content/react-js/age-calculator-output.gif" alt="age-calculator-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 
