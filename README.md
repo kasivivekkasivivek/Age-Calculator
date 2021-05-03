@@ -1,4 +1,4 @@
-In this assignment let's build a **Age Calculator** by applying the concepts we have learned till now.
+In this assignment let's build a **Age Calculator**
 
 ### Refer to image below:
 
@@ -36,7 +36,7 @@ The app must have the following functionalities
 - If the calculated age is greater than 1 then the text `You are x years old by the end of 2021` is displayed to the user.
 - If the calculated age is exactly one then the text `You are 1 year old by the end of 2021` is displayed to the user.
 
-- Your task is to complete the implementation of
+- core code files
   - `src/components/AgeCalculator/index.js`
   - `src/components/AgeCalculator/index.css`
 
@@ -69,11 +69,3 @@ The app must have the following functionalities
 
 - Roboto
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being
->   imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a
->   look at the Cheat Sheets.
